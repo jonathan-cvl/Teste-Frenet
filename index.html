@@ -15,6 +15,7 @@
   <div class="container pt-4">
     <a href="/calcular-frete.html" class="text-decoration-none fs-4 mb-3 d-inline-block">Calcular frete</a>
     <h2>Cadastrar usuário</h2>
+
     <form id="form-cad-user" class="mb-5">
       <div class="row">
         <div class="mb-3">
@@ -40,14 +41,15 @@
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
           <input type="password" class="form-control shadow-none" required id="password" name="password" />
+          <div class="form-text">Você será redirecionado para tela de dados do usuário após criá-lo!</div>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">Alterar</button>
+      <button type="submit" class="btn btn-primary">Criar usuário</button>
     </form>
 
     <div id="message-success" class="alert alert-success">Usuário criado com sucesso</div>
 
-    </div>
+  </div>
   </div>
 
   <script src="js/main.js" type="module"></script>
